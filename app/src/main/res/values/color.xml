@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="pref_category_text_color">#30a399</color>
+    <color name="action_bar_background">#30a399</color>
+    <color name="ripple_btn_color">#c53434</color>
+</resources>

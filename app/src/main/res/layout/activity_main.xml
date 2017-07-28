@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_background"
+    android:orientation="vertical">
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ImageButton
+            android:id="@+id/btnPower"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@android:color/transparent"
+            android:src="@mipmap/power_on" />
+
+        <ImageButton
+            android:id="@+id/btnLed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|right"
+            android:layout_marginRight="12dp"
+            android:background="@android:color/transparent"
+            android:src="@mipmap/led_on" />
+
+        <ImageButton
+            android:id="@+id/btnSetting"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="right|bottom"
+            android:layout_margin="20dp"
+            android:background="@drawable/setting_panel_background"
+            android:shadowColor="@android:color/darker_gray"
+            android:shadowRadius="3"
+            android:src="@drawable/ic_settings_black_48dp" />
+
+    </FrameLayout>
+
+
+</LinearLayout>

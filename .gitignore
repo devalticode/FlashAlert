@@ -1,0 +1,14 @@
+build/*
+lib_ffmpeg/src/main/libs/*
+lib_ffmpeg/src/main/ffmpeg/ffmpeg-*
+lib_ffmpeg/src/main/jni/ffmpeg/ffmpeg/*
+.gradle/
+.idea/
+MABU.iml
+lib_ffmpeg/build/
+lib_ffmpeg/src/main/obj/
+app/app.iml
+lib_ffmpeg/lib_ffmpeg.iml
+local.properties
+lib_ffmpeg/src/main/jni/ffmpeg/ffmpeg/
+app/src/main/obj

@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Flash Alerts</string>
+    <string name="title_activity_main">Flash Alerts</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Flash settings</string>
+    <string name="setting">Settings</string>
+    <string name="share">Share</string>
+    <string name="rate">Rate us</string>
+    <string name="pref_status">Status</string>
+    <string name="pref_enable">Operation Mode</string>
+    <string name="pref_battery">Disable flash when battery below</string>
+    <string name="pref_speed">Flash interval</string>
+    <string name="pref_blink">Blink times when receive SMS</string>
+    <string name="pref_share">Share us</string>
+    <string name="pref_rate">Rate us</string>
+    <string name="pref_more">More apps</string>
+    <string name="silent">Silent</string>
+    <string name="vibrate">Vibrate</string>
+    <string name="normal">Normal</string>
+    <string name="other">Others</string>
+    <string name="incoming_call">Incoming Call</string>
+    <string name="incoming_sms">Incoming SMS</string>
+    <string name="feedback">Feed back</string>
+    <string name="notify">Notice me</string>
+
+    <string name="status_call_pref">status_call_pref</string>
+    <string name="status_sms_pref">status_sms_pref</string>
+    <string name="mode_silent_pref">mode_silent_pref</string>
+    <string name="mode_vibrate_pref">mode_vibrate_pref</string>
+    <string name="mode_normal_pref">mode_normal_pref</string>
+    <string name="speed_pref">speed_pref</string>
+    <string name="blink_time_pref">blink_time_pref</string>
+    <string name="battery_pref">battery_pref</string>
+    <string name="share_pref">share_pref</string>
+    <string name="rate_pref">rate_pref</string>
+    <string name="more_pref">more_pref</string>
+    <string name="notify_pref">notice_pref</string>
+    <string name="alert_key_pref">alert_key_pref</string>
+
+
+
+    <string name="banner_ad_unit_id">ca-app-pub-6216244385195104/1615782674</string>
+    <string name="full_ad_unit_id">ca-app-pub-6216244385195104/3092515879</string>
+</resources>

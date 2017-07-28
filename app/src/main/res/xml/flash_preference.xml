@@ -1,0 +1,101 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:sample="http://schemas.android.com/apk/res-auto">
+
+    <com.alticode.flashalert.utils.FlashPreferenceCategory android:title="@string/pref_status">
+        <CheckBoxPreference
+            android:icon="@drawable/ic_phone_forwarded_black_36dp"
+            android:defaultValue="true"
+            android:key="@string/status_call_pref"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/setting_text_size"
+            android:title="@string/incoming_call">
+
+        </CheckBoxPreference>
+        <CheckBoxPreference
+            android:icon="@drawable/ic_sms_black_36dp"
+            android:defaultValue="true"
+            android:key="@string/status_sms_pref"
+            android:textSize="@dimen/setting_text_size"
+            android:title="@string/incoming_sms">
+
+        </CheckBoxPreference>
+    </com.alticode.flashalert.utils.FlashPreferenceCategory>
+
+    <com.alticode.flashalert.utils.FlashPreferenceCategory android:title="@string/pref_enable">
+        <CheckBoxPreference
+            android:icon="@drawable/ic_volume_mute_black_36dp"
+            android:defaultValue="true"
+            android:key="@string/mode_silent_pref"
+            android:textSize="@dimen/setting_text_size"
+            android:title="@string/silent">
+
+        </CheckBoxPreference>
+        <CheckBoxPreference
+            android:icon="@drawable/ic_vibration_black_36dp"
+            android:defaultValue="true"
+            android:key="@string/mode_vibrate_pref"
+            android:textSize="@dimen/setting_text_size"
+            android:title="@string/vibrate">
+
+        </CheckBoxPreference>
+        <CheckBoxPreference
+            android:icon="@drawable/ic_phone_iphone_black_36dp"
+            android:defaultValue="true"
+            android:key="@string/mode_normal_pref"
+            android:textSize="@dimen/setting_text_size"
+            android:title="@string/normal">
+
+        </CheckBoxPreference>
+    </com.alticode.flashalert.utils.FlashPreferenceCategory>
+
+    <com.alticode.flashalert.utils.FlashPreferenceCategory android:title="@string/other">
+
+
+        <com.pavelsikun.seekbarpreference.SeekBarPreference
+            android:defaultValue="20"
+            android:key="@string/battery_pref"
+            android:textSize="@dimen/setting_text_size"
+            android:title="@string/pref_battery"
+            sample:msbp_interval="1"
+            sample:msbp_maxValue="100"
+            sample:msbp_measurementUnit="%"
+            sample:msbp_minValue="0" />
+
+
+        <com.pavelsikun.seekbarpreference.SeekBarPreference
+            android:defaultValue="100"
+            android:key="@string/speed_pref"
+            android:textSize="@dimen/setting_text_size"
+            android:title="@string/pref_speed"
+            sample:msbp_interval="50"
+            sample:msbp_maxValue="1500"
+            sample:msbp_measurementUnit="ms"
+            sample:msbp_minValue="50" />
+
+        <com.pavelsikun.seekbarpreference.SeekBarPreference
+            android:defaultValue="3"
+            android:key="@string/blink_time_pref"
+            android:textSize="@dimen/setting_text_size"
+            android:title="@string/pref_blink"
+            sample:msbp_interval="1"
+            sample:msbp_maxValue="10"
+            sample:msbp_measurementUnit="times"
+            sample:msbp_minValue="1" />
+
+    </com.alticode.flashalert.utils.FlashPreferenceCategory>
+
+    <com.alticode.flashalert.utils.FlashPreferenceCategory android:title="@string/feedback">
+        <Preference
+            android:icon="@drawable/ic_share_black_36dp"
+            android:key="@string/share_pref"
+            android:title="@string/pref_share" />
+        <Preference
+            android:icon="@drawable/ic_star_black_36dp"
+            android:key="@string/rate_pref"
+            android:title="@string/pref_rate" />
+        <Preference
+            android:icon="@drawable/ic_more_horiz_black_36dp"
+            android:key="@string/more_pref"
+            android:title="@string/pref_more" />
+    </com.alticode.flashalert.utils.FlashPreferenceCategory>
+</PreferenceScreen>
